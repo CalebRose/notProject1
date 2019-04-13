@@ -24,15 +24,42 @@
 
   function employeeToTable() {
 
+
   }
 
   function getEmployee() {
 
+
   }
 
   $(document).on('click', '#submit', function () {
+      // Prevent the page from refreshing
+    event.preventDefault();
       // Extract name role, date, and rate into object form
+      name = $("#name-input").val().trim();
+      role = $("#role-input").val().trim();
+      date = $("#data-input").val().trim();
+      rate = $("#rate-input").val().trim();
       // Push employee into array
+      let obj = {
+          name: name,
+          role: role,
+          data: date,
+          rate: rate
+
+      }
+
+
       // call function to place employees onto list
+      
+      
       // set firebase changes
+      database.ref().set({
+        name: name,
+        role: role,
+        startDate: startDate,
+        monthsWorked: 
+
+      });
+
   });
