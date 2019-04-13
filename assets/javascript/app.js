@@ -42,10 +42,10 @@
       rate = $("#rate-input").val().trim();
       // Push employee into array
       let obj = {
-          name: name,
-          role: role,
-          data: date,
-          rate: rate
+          employee.name: name,
+          employee.role: role,
+          employee.data: date,
+          employee.rate: rate
 
       }
 
@@ -60,6 +60,6 @@
         startDate: startDate,
         monthsWorked: 
 
-      });
+      })
 
   });
