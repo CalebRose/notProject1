@@ -31,8 +31,6 @@
   }
 
   $(document).on('click', '#submit', function () {
-      // Extract name role, date, and rate into object form
-      // Push employee into array
-      // call function to place employees onto list
-      // set firebase changes
+    
+    
   });
