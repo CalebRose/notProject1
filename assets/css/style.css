@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+    text-align: center;
+    
+}
+
+#submit {
+    background-color: #000000;
+    border-color: #000000;
+    margin-bottom: 20px;
+}
+
+
