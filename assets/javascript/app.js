@@ -23,9 +23,17 @@
   };
 
   function employeeToTable() {
-
-
-  }
+    $("<tbody>").empty();
+    for (let i = 0; i < employeeArr.length; i++) {
+        let empRow = $(`<tr>`);
+        let empData = $(`<td>${employeeArr[i].employeeName}</td>
+        <td>${employeeArr[i].employeeRole}</td>
+        <td>${employeeArr[i].employeeDate}</td>
+        <td>${employeeArr[i].employeeRate}</td>`);
+        empRow.append(empData);
+        $("<tbody>").append(empRow);
+    }
+}
 
   function getEmployee() {
 
