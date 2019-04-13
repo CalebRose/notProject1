@@ -56,10 +56,11 @@
           employee.rate: rate
 
       }
+      employeeArr.push(obj);
 
 
       // call function to place employees onto list
-      
+      employeeToTable();
       
       // set firebase changes
       database.ref().set({
@@ -69,5 +70,5 @@
         monthsWorked: 
 
       })
-
+    
   });
