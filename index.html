@@ -13,10 +13,46 @@
 
 <body>
     <div class="container">
+            <div class="jumbotron">
+                  <h1>Employee Data Managment</h1> 
+                  <p>A Comprehensive Directory of Employee Billable Hours</p> 
+            </div>
+    </div>
+
+    <div class="container">
         <div class="row">
           <div class="col">
                 <div>
-
+                        <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Employee Name</th>
+                                    <th scope="col">Role</th>
+                                    <th scope="col">Start Date</th>
+                                    <th scope="col">Monthly Rate</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>john</td>
+                                    <td>CEO</td>
+                                    <td>10/23/3456</td>
+                                    <td>80000000</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Jacob</td>
+                                    <td>Peasent</td>
+                                    <td>12/45/1300</td>
+                                    <td>20</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Larry</td>
+                                    <td>Janitor</td>
+                                    <td>10/23/3456</td>
+                                    <td>20000</td>
+                                  </tr>
+                                </tbody>
+                              </table>
                 </div>
             </div>
         </div>
@@ -44,7 +80,7 @@
                         <label for="exampleFormControlTextarea1">Monthly Rate</label>
                         <input type="email" class="form-control" id="rate-input" placeholder="20000">
                     </div>
-                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <input class="btn btn-primary" type="submit" value="Submit" id="submit">
                 </form>
             </div>
         </div>
