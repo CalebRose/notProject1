@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <title>Employee Tracker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -13,56 +13,56 @@
 
 <body>
     <div class="container">
-            <div class="jumbotron">
-                  <h1>Employee Data Managment</h1> 
-                  <p>A Comprehensive Directory of Employee Billable Hours</p> 
-            </div>
+        <div class="jumbotron">
+            <h1>Employee Data Managment</h1>
+            <p>A Comprehensive Directory of Employee Billable Hours</p>
+        </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col">
                 <div>
-                        <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">Employee Name</th>
-                                    <th scope="col">Role</th>
-                                    <th scope="col">Start Date</th>
-                                    <th scope="col">Monthly Rate</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>john</td>
-                                    <td>CEO</td>
-                                    <td>10/23/3456</td>
-                                    <td>80000000</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Jacob</td>
-                                    <td>Peasent</td>
-                                    <td>12/45/1300</td>
-                                    <td>20</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Larry</td>
-                                    <td>Janitor</td>
-                                    <td>10/23/3456</td>
-                                    <td>20000</td>
-                                  </tr>
-                                </tbody>
-                              </table>
-                              <hr>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Employee Name</th>
+                                <th scope="col">Role</th>
+                                <th scope="col">Start Date</th>
+                                <th scope="col">Monthly Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody id="#tableBody">
+                            <tr>
+                                <td>john</td>
+                                <td>CEO</td>
+                                <td>10/23/3456</td>
+                                <td>80000000</td>
+                            </tr>
+                            <tr>
+                                <td>Jacob</td>
+                                <td>Peasent</td>
+                                <td>12/45/1300</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>Larry</td>
+                                <td>Janitor</td>
+                                <td>10/23/3456</td>
+                                <td>20000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <div class="container">
         <div class="row">
             <div class="col">
-                    
+
                 <form>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Name</label>
@@ -86,7 +86,8 @@
         </div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
     <script src="assets/javascript/app.js"></script>
 </body>
 
